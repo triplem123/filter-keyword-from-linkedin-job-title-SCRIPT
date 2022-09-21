@@ -7,7 +7,7 @@ function filter() {
         e.id && e.innerHTML.match(/Senior/) && e.remove()
     }),
         setTimeout(function () {
-            x.scrollTop = 0
+            x.scrollTop = 0;
         }, 0)
 }
 !function e() {
