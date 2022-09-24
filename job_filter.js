@@ -3,6 +3,7 @@ javascript:
 var i = 0;
 var x = document.getElementsByClassName('jobs-search-results-list')[0];
 var arr = [/Senior/, /Staff/, /Lead/, /Principal/];
+var len = arr.length;
 function filter(word) { 
     document.querySelectorAll("li").forEach(function (e) { 
         e.id && e.innerHTML.match(word) && e.remove() 
@@ -14,7 +15,7 @@ function filter(word) {
 } 
 function e() { 
     x.scroll(0, 100 * ++i); 
-    if (i > 160) { return; } 
+    if (i > (len * 40)) { return; } 
     i % 40 === 0 ? filter(arr.pop()) : setTimeout(e, 0) 
 }; 
 e();
