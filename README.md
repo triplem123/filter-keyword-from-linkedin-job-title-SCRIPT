@@ -6,3 +6,4 @@ To use:
 3. Edit the bookmark and change the URL of the bookmark to the copied code
 4. Change the array near the beginning of the script to what ever terms you want to filter out 
 5. Keep the /Filter/ format in the array, and remember that filters are case-sensitive
+6. Search for jobs on LinkedIn, and click on the bookmark to filter out listings that contain the terms you don't want to see
